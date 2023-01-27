@@ -1,0 +1,88 @@
+#header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+
+#header-element:first-child {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#header-element:last-child {
+    position: absolute;
+    top: 9%;
+    margin-left: 40%;
+    width: 100px;
+    height: 30px;
+    color: #000000;
+    background-color: #fdb347;
+    border-color: #fdb347;
+}
+
+#main {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1a1a35;
+    color: white;
+    border-bottom: 4px solid #fdb347;
+}
+
+
+#main-element:nth-child(2) {
+    position: relative;
+    height: 15px;
+    top: 35%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#main-element:nth-child(1) {
+    position: relative;
+    top: 35%;
+    height: 15px;
+    margin-left: 35%;
+    margin-right: 0;
+    font-size: 20px;
+}
+
+#main-element:last-child {
+    position: relative;
+    top: 32%;
+    margin-left: 0;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    color: #000000;
+    background-color: #fdb347;
+    border-color: #fdb347;
+}
+
+#App,
+body {
+    background-color: #1a1a35;
+}
+
+#NFT {
+    background-color: #1a1a35;
+    color: white;
+    display: flex;
+    padding: 5px;
+}
+
+#nfts-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video {
+    border: 1px solid #fdb347;
+}
